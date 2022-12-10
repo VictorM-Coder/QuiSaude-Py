@@ -17,6 +17,8 @@ CREATE TABLE instituicao_saude(
 	cnpj VARCHAR(18) PRIMARY KEY,
 	nome VARCHAR(100) NOT NULL,
 	id_endereco INT NOT NULL,
+	qtd_servicos INT DEFAULT 0,
+	qtd_campanhas INT DEFAULT 0,
 	FOREIGN KEY(id_endereco) REFERENCES endereco(id)
 );
 
