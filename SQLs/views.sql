@@ -16,9 +16,6 @@ CREATE VIEW campanhas_vigentes AS (
 
 --VIEW 4
 --está usando o mesmo do 2, porém com recursos de filtragem
-SELECT instituicao_saude.nome, servico.nome, servico.descricao, servico.preco
-FROM instituicao_saude JOIN servico ON instituicao_saude.cnpj = servico.cnpj_instituicao_saude
-;
 
 --VIEW 5
 CREATE VIEW medico_instituicao AS (
