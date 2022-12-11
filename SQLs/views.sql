@@ -32,6 +32,11 @@ CREATE VIEW horario_instituicao AS (
            INNER JOIN horario_atendimento ON instituicao_saude_horario_atendimento.id_horario = horario_atendimento.id
 );
 
+--VIEW 7
+CREATE VIEW qnt_campanhas AS (
+    SELECT instituicao_saude.nome, instituicao_saude.qtd_campanhas FROM instituicao_saude
+);
+
 --VIEW 8
 CREATE VIEW endereco_instituicao AS (
     SELECT instituicao_saude.nome, endereco.rua, bairro, numero

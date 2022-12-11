@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff337853-11fd-4bdc-af10-07ffcf7f8a58" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQLs/views.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQLs/views.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/crud.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
